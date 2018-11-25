@@ -49,7 +49,7 @@
                                     </a>
                                 </div>
                                 <div class="post_card_content_p">
-                                    <p><?php echo wp_trim_words( get_the_content(), 100 ); ?></p>
+                                    <p><?php echo wp_trim_words( get_the_content(), 80 ); ?></p>
                                     <p style="text-align: right;line-height: 50px;"><a href="<?php the_permalink(); ?>"
                                                                                        class="post_card_content_readmore">阅读全文</a>
                                     </p>
