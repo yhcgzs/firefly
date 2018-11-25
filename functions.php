@@ -244,22 +244,21 @@ $options = array (
 	          "desc" => '请参照默认设置修改，href中填写目标链接，a标签之中填写链接文字，src中填写图片URL地址。',
 	          "id" => $shortname."_index_recommend_code",
 	          "type" => "textarea",
-	          "std" => ' <div class="headline_content_item">
-<div><a href="#" target="_blank"><img src="'.get_stylesheet_directory_uri(). '/img/headline_content.png'.'" width="100px" height="60px"></a></div>
-<div><p><a href="#" target="_blank">请到网站主题后台修改你想展示的内容，并配上相应的小图</a></p></div>
-</div>
-<div class="headline_content_item">
-<div><a href="#" target="_blank"><img src="'.get_stylesheet_directory_uri(). '/img/headline_content.png'.'" width="100px" height="60px"></a></div>
-<div><p><a href="#" target="_blank">请到网站主题后台修改你想展示的内容，并配上相应的小图</a></p></div>
-</div>
-<div class="headline_content_item">
-<div><a href="#" target="_blank"><img src="'.get_stylesheet_directory_uri(). '/img/headline_content.png'.'" width="100px" height="60px"></a></div>
-<div><p><a href="#" target="_blank">请到网站主题后台修改你想展示的内容，并配上相应的小图</a></p></div>
-</div>
-<div class="headline_content_item">
-<div><a href="#" target="_blank"><img src="'.get_stylesheet_directory_uri(). '/img/headline_content.png'.'" width="100px" height="60px"></a></div>
-<div><p><a href="#" target="_blank">请到网站主题后台修改你想展示的内容，并配上相应的小图</a></p></div>
-</div>'),
+	          "std" => ' <ul>
+    <li><a title="标题" href="http://www.baidu.com" target="_blank" style="color:#FF0000" rel="nofollow">[广告]请到网站主题后台修改你想展示的内容</a></li>
+    <li><a title="标题" href="http://www.baidu.com" target="_blank" style="color:#FF00FF" rel="nofollow">[广告] 请到网站主题后台修改你想展示的内容</a></li>
+    <li><a title="标题" href="http://www.baidu.com" target="_blank" style="color:" rel="nofollow">[广告] 请到网站主题后台修改你想展示的内容</a></li>
+    <li><a title="标题" href="http://www.baidu.com" target="_blank" style="color:#008B8B" rel="nofollow">[广告]请到网站主题后台修改你想展示的内容</a></li>
+    <li><a title="标题" href="http://www.baidu.com" target="_blank" style="color:" rel="nofollow">[广告] 请到网站主题后台修改你想展示的内容</a></li>
+    <li><a title="标题" href="http://www.baidu.com" target="_blank" style="color:" rel="nofollow">[广告] 请到网站主题后台修改你想展示的内容</a></li>
+    <li><a title="标题" href="http://www.baidu.com" target="_blank" style="color:#FF0000" rel="nofollow">[广告] 请到网站主题后台修改你想展示的内容</a></li>
+    <li><a title="标题" href="http://www.baidu.com" target="_blank" style="color:#FF0000" rel="nofollow">[广告] 请到网站主题后台修改你想展示的内容</a></li>
+    <li><a title="标题" href="http://www.baidu.com" target="_blank" style="color:#800080" rel="nofollow">[广告] 请到网站主题后台修改你想展示的内容</a></li>
+    <li><a title="标题" href="http://www.baidu.com" target="_blank" style="color:#f5074b" rel="nofollow">[广告] 请到网站主题后台修改你想展示的内容</a></li>
+    <li><a title="标题" href="http://www.baidu.com" target="_blank" style="color:#7c0eeb" rel="nofollow">[广告] 请到网站主题后台修改你想展示的内容</a></li>
+    <li><a title="标题" href="http://www.baidu.com" target="_blank" style="color:" rel="nofollow">[广告] 请到网站主题后台修改你想展示的内容</a></li>
+</ul>
+'),
 
 
 
