@@ -212,7 +212,7 @@ ul,li{
 }
 .page_main{
     display: grid;
-    grid-template-columns: 10% 80% 10%;
+    grid-template-columns: 100% ;
     grid-template-rows: auto;
     background: #EDEDED;
 }
