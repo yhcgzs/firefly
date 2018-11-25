@@ -69,7 +69,7 @@ ul,li{
 }
 .lg_nav{
     display: grid;
-    grid-template-columns: 60% 40% ;
+    grid-template-columns: 70% 30% ;
     grid-template-rows: 40px;
 }
 #lg_nav .lg_nav_left ul li a{color:#FFF;display:block;height:40px;padding:0 15px;display:block;cursor:pointer;font-size:15px;font-weight:bold;}
